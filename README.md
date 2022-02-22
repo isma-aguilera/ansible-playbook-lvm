@@ -7,7 +7,7 @@ Playbook Ansible para automatizar la creación de particiones primarias LVM, Vol
 En el archivo **ansible.cfg** definimos el inventario a utilizar y los privilegios para la ejecucion de tareas.
 
 
-En el archivo **playbook.yml** se encuentran las tareas a ejecutar. **Detallo los enlaces de la documentacion:**
+En el archivo **playbook.yml** se encuentran las tareas a ejecutar. **Detallo los enlaces de la documentación:**
 
 
 - [Module parted](https://docs.ansible.com/ansible/latest/collections/community/general/parted_module.html)
@@ -23,4 +23,4 @@ En el archivo **playbook.yml** se encuentran las tareas a ejecutar. **Detallo lo
 ---
 
 
-`ansible-playbook playbook.yml -i hosts`
+```ansible-playbook playbook.yml -i hosts```
