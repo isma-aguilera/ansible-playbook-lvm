@@ -20,7 +20,6 @@ En el archivo **playbook.yml** se encuentran las tareas a ejecutar. **Detallo lo
 
 
 ## RUN PLAYBOOK
----
 
 
-``` ansible-playbook playbook.yml -i hosts ```
+`ansible-playbook playbook.yml -i hosts`.
