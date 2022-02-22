@@ -23,4 +23,4 @@ En el archivo **playbook.yml** se encuentran las tareas a ejecutar. **Detallo lo
 ---
 
 
-```ansible-playbook playbook.yml -i hosts```
+``` ansible-playbook playbook.yml -i hosts ```
